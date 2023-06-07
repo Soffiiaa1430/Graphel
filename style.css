@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #24282d;
+    color: #fff;
+    border-bottom: 3px solid #1593d4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+}
+
+nav {
+    width: 40%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #1593d4;
+}
+
+
+
+.ncr {
+    background: url(imagenes/cabecera.jpg) center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    width:100%;
+    height:400px;
+    color:#fff;
+
+}
+
+.nrc > h2 {
+    font-size: 1000px;
+    margin-bottom: 20px;
+}
+
+/*.nrc p {
+    width: 90%;
+    font-size: 20px;
+}
+*/
+
+main {
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+span,
+.activo {
+    color: #1593d4;
+}
+
+.subscrip {
+    background-color: #24282d;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: #fff;
+}
+
+.subscrip h4 {
+    font-size: 19px;
+}
+
+.subscrip input {
+    padding: 8px;
+}
+
+.subscrip .form input[type="email"] {
+    width: 234px;
+}
+
+.subscrip input[type="button"] {
+    background-color: #e8491d;
+    color: #fff;
+    border: 1px solid #e8491d;
+}
+
+.subscrip input[type="button"]:hover {
+    background-color: #fff;
+    color: #e8491d;
+    border: 1px solid #fff;
+}
+
+
+.formulario input,
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+.img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    align-items: center;
+}
+
+.formulario button {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 35%;
+}
+
+.cLat p {
+    margin: 10px 0;
+}
+
+.cLat {
+    margin: 20px 0;
+    background: #35424A;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 100px;
+    background: #1593d4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prn {
+    width: 100%;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-right: 40px;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: justify;
+    
+}
+
+.cont {
+    width: 60%;
+}
+
+.cont p {
+    margin: 10px 0;
+}
+
+.ssc {
+    background: #35424a;
+    color: #fff;
+    padding: 20px;
+}
+
+.cont img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+aside {
+    width: 35%;
+}
+
+aside img {
+    width: 100%;
+}
+
+.cuadro-gris {
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width:740px;
+}
+
+.cuadro-gris p{
+    margin: 20px;
+}
+
+.titulo {
+    color: #fff;
+}
+
+.texto {
+    color: #fff;
+}
+
+.cLat {
+    width:85%;
+}
+
+.ncr2 {
+    width:100%;
+    height:300px;
+    display:grid;
+    grid-template-columns:repeat(3,30%);
+    place-content:center;
+    column-gap:20px;
+    text-align:center;
+}
+
+.img {
+    display:grid;
+    grid-template-rows:50% 25% 25%;
+    width:100%;
+}
+
+.img img {
+    width:100%;
+    height:100%;
+}
+
+.mapa{
+    width: 380px;
+}
+
+#title {
+    font-size:60px;
+}
